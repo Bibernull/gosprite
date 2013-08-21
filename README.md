@@ -5,6 +5,10 @@ I wanted to check out golang and aswell compare it's speed to nodejs in making s
 Did not notice any difference, and tested with 60 simple images so far, but i expected more.
 `image/draw` package and it's `draw` func doesn't seem to be slower(nor faster) than the manual drawing to image from `spritesheetjs`.
 
+# Install
+
+`go get github.com/bibernull/gosprite`
+
 # Example
 
 ```go
